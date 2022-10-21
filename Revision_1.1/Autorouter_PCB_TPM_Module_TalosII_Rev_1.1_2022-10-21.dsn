@@ -1,0 +1,643 @@
+(PCB ''
+  (resolution mil 1000)
+  (structure
+    (boundary(path signal 0 0 -100.47 0 0 105.5 0 105.5 -100.47 0 -100.47 )
+    )
+    (via via0
+    )
+    (grid via   0.25)
+    (grid wire   0.25)
+    (grid place   0.25)
+    (rule(clear 0.7294))
+    (rule(clear 0.7294 (type default_smd)))
+    (rule(clear 0.7294 (type smd_smd)))
+    (rule(width 1.005))
+    (layer 1
+      (type signal)
+    )
+    (layer 2
+      (type signal)
+    )
+
+  )
+
+  (placement
+    (component u1
+      (place u1 0 0 front 0
+      )
+    )
+
+  )
+  (library
+    (image u1
+      (pin p75 75 57.5 -50.23)
+      (pin p87 87 57.5 -62.77)
+      (pin p75 171 30 -53.73)
+      (pin p87 183 30 -66.27)
+      (pin p75 267 47.5 -50.23)
+      (pin p87 279 47.5 -62.77)
+      (pin p723 723 77.5 -33)
+      (pin p738 738 67.5 -33)
+      (pin p792 792 72.5 -62.322)
+      (pin p804 804 72.5 -50.678)
+      (pin p1026 1026 17.366 -33.945)
+      (pin p1026 1041 19.925 -33.945)
+      (pin p1026 1056 22.484 -33.945)
+      (pin p1026 1071 25.043 -33.945)
+      (pin p1026 1086 27.602 -33.945)
+      (pin p1026 1101 30.161 -33.945)
+      (pin p1026 1116 32.72 -33.945)
+      (pin p1026 1131 35.28 -33.945)
+      (pin p1026 1146 37.839 -33.945)
+      (pin p1026 1161 40.398 -33.945)
+      (pin p1026 1176 42.957 -33.945)
+      (pin p1026 1191 45.516 -33.945)
+      (pin p1026 1206 48.075 -33.945)
+      (pin p1026 1221 50.634 -33.945)
+      (pin p1026 1236 50.634 -12.055)
+      (pin p1026 1251 48.075 -12.055)
+      (pin p1026 1266 45.516 -12.055)
+      (pin p1026 1281 42.957 -12.055)
+      (pin p1026 1296 40.398 -12.055)
+      (pin p1026 1311 37.839 -12.055)
+      (pin p1026 1326 35.28 -12.055)
+      (pin p1026 1341 32.72 -12.055)
+      (pin p1026 1356 30.161 -12.055)
+      (pin p1026 1371 27.602 -12.055)
+      (pin p1026 1386 25.043 -12.055)
+      (pin p1026 1401 22.484 -12.055)
+      (pin p1026 1416 19.925 -12.055)
+      (pin p1026 1431 17.366 -12.055)
+      (pin p2180 2180 98 -85)
+      (pin p2195 2195 98 -95)
+      (pin p2195 2210 88 -85)
+      (pin p2195 2225 88 -95)
+      (pin p2195 2240 78 -85)
+      (pin p2195 2255 78 -95)
+      (pin p2195 2270 68 -85)
+      (pin p2195 2285 68 -95)
+      (pin p2195 2300 58 -85)
+      (pin p2195 2315 58 -95)
+      (pin p2195 2330 48 -85)
+      (pin p2195 2345 48 -95)
+      (pin p2195 2360 38 -85)
+      (pin p2195 2375 38 -95)
+      (pin p2195 2390 28 -85)
+      (pin p2195 2405 28 -95)
+      (pin p2195 2420 18 -85)
+      (pin p2195 2435 18 -95)
+      (pin p2195 2450 8 -85)
+      (pin p2195 2465 8 -95)
+      (pin p1623 1623 30.161 -39.891)
+      (pin p1623 1638 36.5 -42.5)
+    )
+
+    (padstack via0
+      (shape(circle 1 2.4016))
+      (shape(circle 2 2.4016))
+    )
+
+    (padstack p75
+      (shape(polygon 1 0.01 3.4016 -2.9235 -3.4016 -2.9235 -3.4016 2.9229 3.4016 2.9229))
+    )
+    (padstack p87
+      (shape(polygon 1 0.01 3.4016 2.9235 -3.4016 2.9235 -3.4016 -2.9229 3.4016 -2.9229))
+    )
+    (padstack p723
+      (shape(circle 1 7.0866 0 0))
+      (shape(circle 2 7.0866 0 0))
+    )
+    (padstack p738
+      (shape(polygon 1 0.01 -3.5433 3.5433 3.5433 3.5433 3.5433 -3.5433 -3.5433 -3.5433))
+      (shape(polygon 2 0.01 -3.5433 3.5433 3.5433 3.5433 3.5433 -3.5433 -3.5433 -3.5433))
+    )
+    (padstack p792
+      (shape(polygon 1 0.01 -3.3484 2.3771 3.3484 2.3771 3.3484 -2.3769 -3.3484 -2.3769))
+    )
+    (padstack p804
+      (shape(polygon 1 0.01 -3.3484 -2.3771 3.3484 -2.3771 3.3484 2.3769 -3.3484 2.3769))
+    )
+    (padstack p1026
+      (shape(polygon 1 0.01 0 -3.0709 -0.0313 -3.0701 -0.0626 -3.0675 -0.0936 -3.0633 -0.1244 -3.0574 -0.1548 -3.0498 -0.1848 -3.0406 -0.2142 -3.0298 -0.243 -3.0174 -0.2711 -3.0035 -0.2984 -2.988 -0.3248 -2.9712 -0.3503 -2.9529 -0.3747 -2.9332 -0.398 -2.9123 -0.4202 -2.8901 -0.4411 -2.8668 -0.4608 -2.8424 -0.4791 -2.8169 -0.4959 -2.7905 -0.5114 -2.7632 -0.5253 -2.7351 -0.5377 -2.7063 -0.5485 -2.6769 -0.5577 -2.6469 -0.5653 -2.6165 -0.5712 -2.5857 -0.5754 -2.5547 -0.578 -2.5234 -0.5788 -2.4921 -0.5788 2.4921 -0.578 2.5234 -0.5754 2.5547 -0.5712 2.5857 -0.5653 2.6165 -0.5577 2.6469 -0.5485 2.6769 -0.5377 2.7063 -0.5253 2.7351 -0.5114 2.7632 -0.4959 2.7905 -0.4791 2.8169 -0.4608 2.8424 -0.4411 2.8668 -0.4202 2.8901 -0.398 2.9123 -0.3747 2.9332 -0.3503 2.9529 -0.3248 2.9712 -0.2984 2.988 -0.2711 3.0035 -0.243 3.0174 -0.2142 3.0298 -0.1848 3.0406 -0.1548 3.0498 -0.1244 3.0574 -0.0936 3.0633 -0.0626 3.0675 -0.0313 3.0701 0 3.0709 0.0313 3.0701 0.0626 3.0675 0.0936 3.0633 0.1244 3.0574 0.1548 3.0498 0.1848 3.0406 0.2142 3.0298 0.243 3.0174 0.2711 3.0035 0.2984 2.988 0.3248 2.9712 0.3503 2.9529 0.3747 2.9332 0.398 2.9123 0.4202 2.8901 0.4411 2.8668 0.4608 2.8424 0.4791 2.8169 0.4959 2.7905 0.5114 2.7632 0.5253 2.7351 0.5377 2.7063 0.5485 2.6769 0.5577 2.6469 0.5653 2.6165 0.5712 2.5857 0.5754 2.5547 0.578 2.5234 0.5788 2.4921 0.5788 -2.4921 0.578 -2.5234 0.5754 -2.5547 0.5712 -2.5857 0.5653 -2.6165 0.5577 -2.6469 0.5485 -2.6769 0.5377 -2.7063 0.5253 -2.7351 0.5114 -2.7632 0.4959 -2.7905 0.4791 -2.8169 0.4608 -2.8424 0.4411 -2.8668 0.4202 -2.8901 0.398 -2.9123 0.3747 -2.9332 0.3503 -2.9529 0.3248 -2.9712 0.2984 -2.988 0.2711 -3.0035 0.243 -3.0174 0.2142 -3.0298 0.1848 -3.0406 0.1548 -3.0498 0.1244 -3.0574 0.0936 -3.0633 0.0626 -3.0675 0.0313 -3.0701))
+    )
+    (padstack p2180
+      (shape(polygon 1 0.01 3.5 3.5 -3.5 3.5 -3.5 -3.5 3.5 -3.5))
+      (shape(polygon 2 0.01 3.5 3.5 -3.5 3.5 -3.5 -3.5 3.5 -3.5))
+    )
+    (padstack p2195
+      (shape(circle 1 7 0 0))
+      (shape(circle 2 7 0 0))
+    )
+    (padstack p1623
+      (shape(circle 1 2.4016 0 0))
+      (shape(circle 2 2.4016 0 0))
+    )
+  )
+  (network
+    (net DAVINT
+      (pins u1-1101 u1-2465 u1-1623)
+    )
+    (net RESET
+      (pins u1-1146 u1-2240 u1-1638)
+    )
+    (net GND
+      (pins u1-87 u1-183 u1-279 u1-792 u1-1071 u1-1176 u1-1281 u1-1386 u1-2195 u1-2345 u1-2420)
+    )
+    (net R1_1
+      (pins u1-723 u1-804 u1-1116)
+    )
+    (net VCC
+      (pins u1-75 u1-171 u1-267 u1-738 u1-1086 u1-1161 u1-2300)
+    )
+    (net SCL
+      (pins u1-1041 u1-2360)
+    )
+    (net SDA
+      (pins u1-1026 u1-2375)
+    )
+    (net U1_3
+      (pins u1-1056)
+    )
+    (net U1_8
+      (pins u1-1131)
+    )
+    (net U1_12
+      (pins u1-1191)
+    )
+    (net U1_13
+      (pins u1-1206)
+    )
+    (net U1_14
+      (pins u1-1221)
+    )
+    (net U1_15
+      (pins u1-1236)
+    )
+    (net U1_16
+      (pins u1-1251)
+    )
+    (net U1_17
+      (pins u1-1266)
+    )
+    (net U1_19
+      (pins u1-1296)
+    )
+    (net U1_20
+      (pins u1-1311)
+    )
+    (net U1_21
+      (pins u1-1326)
+    )
+    (net U1_22
+      (pins u1-1341)
+    )
+    (net U1_23
+      (pins u1-1356)
+    )
+    (net U1_24
+      (pins u1-1371)
+    )
+    (net U1_26
+      (pins u1-1401)
+    )
+    (net U1_27
+      (pins u1-1416)
+    )
+    (net U1_28
+      (pins u1-1431)
+    )
+    (net H2_1
+      (pins u1-2180)
+    )
+    (net H2_3
+      (pins u1-2210)
+    )
+    (net H2_4
+      (pins u1-2225)
+    )
+    (net H2_6
+      (pins u1-2255)
+    )
+    (net H2_7
+      (pins u1-2270)
+    )
+    (net H2_8
+      (pins u1-2285)
+    )
+    (net H2_10
+      (pins u1-2315)
+    )
+    (net H2_11
+      (pins u1-2330)
+    )
+    (net H2_15
+      (pins u1-2390)
+    )
+    (net H2_16
+      (pins u1-2405)
+    )
+    (net H2_18
+      (pins u1-2435)
+    )
+    (net H2_19
+      (pins u1-2450)
+    )
+    (class DAVINT DAVINT
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class RESET RESET
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class GND GND
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class R1_1 R1_1
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class VCC VCC
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class SCL SCL
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class SDA SDA
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class U1_3 U1_3
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class U1_8 U1_8
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class U1_12 U1_12
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class U1_13 U1_13
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class U1_14 U1_14
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class U1_15 U1_15
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class U1_16 U1_16
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class U1_17 U1_17
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class U1_19 U1_19
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class U1_20 U1_20
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class U1_21 U1_21
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class U1_22 U1_22
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class U1_23 U1_23
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class U1_24 U1_24
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class U1_26 U1_26
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class U1_27 U1_27
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class U1_28 U1_28
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class H2_1 H2_1
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class H2_3 H2_3
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class H2_4 H2_4
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class H2_6 H2_6
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class H2_7 H2_7
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class H2_8 H2_8
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class H2_10 H2_10
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class H2_11 H2_11
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class H2_15 H2_15
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class H2_16 H2_16
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class H2_18 H2_18
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+    (class H2_19 H2_19
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.7244)
+      )
+    )
+
+  )
+
+   (wiring
+    (wire(path 2 1 78 -85 76.5 -85 36.5 -45 36.5 -42.5 )
+      (net RESET)
+      (type protect)
+    )
+    (wire(path 2 1 8 -94.9999 12.732 -90.2679 12.732 -57.3199 30.161 -39.8909 )
+      (net DAVINT)
+      (type protect)
+    )
+    (wire(path 1 1 32.72 -33.94 32.72 -45.72 42.5 -55.5 63 -55.5 67.5 -51 72 -51 )
+      (net R1_1)
+      (type protect)
+    )
+    (wire(path 1 1 67.5 -33 67.5 -36.08 57.5 -46.08 )
+      (net VCC)
+      (type protect)
+    )
+    (wire(path 1 1 27.602 -33.9449 27.602 -45.9799 30 -48.3779 30 -53.73 )
+      (net VCC)
+      (type protect)
+    )
+    (wire(path 1 1 58 -85 30 -57 30 -53.73 )
+      (net VCC)
+      (type protect)
+    )
+    (wire(path 1 1 77.5 -33 77.5 -41 72.5 -46 72.5 -50.68 )
+      (net R1_1)
+      (type protect)
+    )
+    (wire(path 1 1 76 -33 77.5 -33 )
+      (net R1_1)
+      (type protect)
+    )
+    (wire(path 1 1 40.398 -33.945 40.398 -43.128 47.5 -50.23 )
+      (net VCC)
+      (type protect)
+    )
+    (wire(path 1 1 37.8389 -33.9448 37.8389 -41.1611 36.5 -42.5 )
+      (net RESET)
+      (type protect)
+    )
+    (wire(path 1 1 40.4 -33.94 40.4 -31.08 38.32 -29 29.41 -29 27.6 -30.81 27.6 -33.94 )
+      (net VCC)
+      (type protect)
+    )
+    (wire(path 1 1 47.5 -50.23 57.27 -50.23 57.5 -50 )
+      (net VCC)
+      (type protect)
+    )
+    (wire(path 1 1 19.92 -33.94 19.92 -65.92 38 -84 38 -85 )
+      (net SCL)
+      (type protect)
+    )
+    (wire(path 1 1 57.5 -48.1559 57.5 -46.0819 )
+      (net VCC)
+      (type protect)
+    )
+    (wire(path 1 1 57.5 -50.2299 57.5 -48.1559 )
+      (net VCC)
+      (type protect)
+    )
+    (wire(path 1 1 30.161 -39.8909 30.161 -33.9449 )
+      (net DAVINT)
+      (type protect)
+    )
+    (wire(path 1 1 17.366 -33.9449 17.366 -66.8159 33 -82.4499 33 -89.9999 38 -94.9999 )
+      (net SDA)
+      (type protect)
+    )
+    )
+
+)
